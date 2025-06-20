@@ -1,21 +1,21 @@
 const scenes = [
   {
     image: "img/omori0.1.gif",
-    text: "Wuola mi amor, dejame contarte la historia de como alguien especial me cambio la vida.",
+    text: "Wuola mi amor, dejame contarte una historia muy especial...",
     bgColor: "#000000",
     textColor: "#ffffff",
     boxBg: "rgba(0, 0, 0, 0.8)"
   },
     {
     image: "img/omori.webp",
-    text: "Érase una vez un chico que sonreía poco. Vivía en silencio, con el corazón cerrado y la idea de que el amor no era para él.",
+    text: "Érase una vez un chico que sonreía poco. Vivía en silencio, no le abria el corazon a nadie y tenia la idea de que el amor llegara por si solo.",
     bgColor: "#000000",
     textColor: "#ffffff",
     boxBg: "rgba(0, 0, 0, 0.8)"
   },
   {
     image: "img/omori3.gif",
-    text: "Su vida era gris, sin emoción. No buscaba a nadie, porque sentía que no tenía nada que ofrecer.",
+    text: "Su vida era gris, sin emoción. No buscaba a nadie, era serio, aunque muy en el fondo deseaba darlo todo por alguien.",
     bgColor: "#2a0a1c",
     textColor: "#ffffff",
     boxBg: "rgba(42, 10, 28, 0.7)"
@@ -50,7 +50,7 @@ const scenes = [
   },
   {
     image: "img/final.gif",
-    text: "Ella le dio vuelta a su mundo. Le enseñó que el amor verdadero existe. Y él le prometió amarla incondicionalmente, por el resto de su vida.",
+    text: "Ella le dio vuelta a su mundo. Le enseñó que el amor verdadero existe. Y él le prometió amarla incondicionalmente, infinitamente, entregarse a ella, por el resto de su vida, y hasta el dia de hoy, sigue cumpliendo esa promesa.",
     bgColor: "#ffd1dc",
     textColor: "#000000",
     boxBg: "rgba(255, 209, 220, 0.2)"
@@ -104,7 +104,7 @@ function nextScene() {
       document.getElementById("continue-hint").style.opacity = 0;
       showScene();
     } else {
-      textElement.textContent = "Continuara...Gracias por cambiarme la vida, por ser la luz en mi vida. Te amo mi Nomi ❤️";
+      textElement.textContent = "Continuara...Gracias por cambiarme la vida Nahomi, por ser la luz en mi vida, por darme paz, por ser mi felicidad. Te amo y te amare hasta que muera, mi Nomi ❤️";
       imageElement.style.display = "none";
       document.getElementById("continue-hint").style.display = "none";
     }
